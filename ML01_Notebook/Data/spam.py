@@ -14,6 +14,6 @@ def df_window(df):
         df.to_html(f.name)
     webbrowser.open(f.name)
     
-spam_data = pd.read_csv("Youtube01-Psy.csv", encoding='latin1')
+spam_data = pd.read_csv("Data\Youtube01-Psy.csv", encoding='latin1')
 df_window(spam_data)
 
